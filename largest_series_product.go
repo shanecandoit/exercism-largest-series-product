@@ -20,6 +20,7 @@ For the input '73167176531330624919225119674426574742355349194934',
 the largest product for a series of 6 digits is 23520.
 */
 
+// LargestSeriesProduct find the largest product of a contiguous set of digits of span length
 func LargestSeriesProduct(digits string, span int) (int, error) {
 	fmt.Println("LargestSeriesProduct", digits, span)
 	// var a,b,c =0,0,0
